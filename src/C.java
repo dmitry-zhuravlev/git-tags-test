@@ -3,4 +3,5 @@
  * Date: 20/07/2018
  */
 public class C {
+    int other;
 }
