@@ -5,6 +5,7 @@
 
 
 public class B  {
-      int a3;
+      int
+              a3;
 
 }
