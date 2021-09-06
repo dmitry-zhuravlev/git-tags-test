@@ -1,6 +1,7 @@
     object Cookies {
-        private const val authRedirectName = "grazie-auth-redirect"
 
-        fun setAuthRedirect(call: ApplicationCall, redirect: String) {
-            call.response.cookies.append(authRedirectName, redirect)
+        private const val initialAuthRedirectName = "grazie-initial-auth-redirect"
+
+        fun setInitialAuthRedirect(call: ApplicationCall, redirect: String) {
+            call.response.cookies.append(initialAuthRedirectName, redirect)
         }
