@@ -1,8 +1,8 @@
 
-import java.awt.Color;
-import java.awt.Rectangle;
-import java.awt.color.ColorSpace;
+import java.awt.*;
+import com.sun.deploy.util.StringUtils;
 
 public class Test {
     Rectangle r;
+    StringUtils u;
 }
